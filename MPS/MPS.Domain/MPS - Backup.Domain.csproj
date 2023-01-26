@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Modules\ExternalDriveModules\Implementation\" />
+    <Folder Include="Modules\ExternalDriveModules\Interfaces\" />
+    <Folder Include="Modules\ReportCreationalModules\Implementation\" />
+    <Folder Include="Modules\ReportCreationalModules\Interfaces\" />
+    <Folder Include="Modules\ReportCreationalModules\Extra\" />
+    <Folder Include="Modules\SecurityModules\PasswordModule\Implementation\" />
+    <Folder Include="Modules\SecurityModules\PasswordModule\Interfaces\" />
+    <Folder Include="Modules\SecurityModules\TokenModule\Implementation\" />
+    <Folder Include="Modules\SecurityModules\TokenModule\Interfaces\" />
+    <Folder Include="Mapping\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Dto\" />
+    <Folder Include="Config\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+</Project>
